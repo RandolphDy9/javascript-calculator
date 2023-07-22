@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EEE2DE !important;
+  font-family: 'Tektur', cursive;
+}
+
+h4 {
+  color: #DDE6ED;
+}
+
+#calculator {
+  width: 350px;
+  background-color: #27374D;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white !important;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#display {
+  padding: 3rem;
+  border: 1px solid black;
+  background-color: #001C30;
+}
+
+#clear {
+  background-color: #B31312;
+}
+
+#equals {
+  background-color: #176B87;
+}
+
+.pad {
+  padding: 1rem;
+  border: 1px solid black;
+  background-color: #A8A196;
+  cursor: pointer;
+}
